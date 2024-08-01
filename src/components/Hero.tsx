@@ -1,9 +1,20 @@
-
+import { motion } from "framer-motion";
 function Hero() {
   return (
-    <div className="flex flex-col p-5 mt-10 md:flex-row lg:flex-row-reverse lg:items-center lg:w-10/12 mx-auto">
-        <img src="images/illustration-working.svg" alt="" className="md:w-1/2" />
-        <div className=" flex flex-col gap-5 mt-10 text-center md:text-left">
+    <div 
+      className="flex flex-col p-5 mt-10 md:flex-row lg:flex-row-reverse lg:items-center lg:w-10/12 mx-auto"
+      
+    >
+        <motion.img src="images/illustration-working.svg" alt="" className="md:w-1/2 scale-125"
+          initial={{ opacity: 0 , x: 300 }}
+          animate={{ opacity: 1, x: 0 }}  
+          transition={{ duration: 1, stiffness: 50 }}
+        />
+        <motion.div className=" flex flex-col gap-5 mt-10 text-center md:text-left"
+          initial={{ opacity: 0 , x: -300 }}
+          animate={{ opacity: 1, x: 0 }}  
+          transition={{ duration: 1 }}
+        >
             <h1 className=" text-4xl  font-bold text-veryDarkBlue">More than just shorter links</h1>
             <p className="text-xl font-medium text-grayishViolet">
             Build your brand’s recognition and get detailed insights 
@@ -14,7 +25,7 @@ function Hero() {
             >
                 Get Started
             </button>
-        </div>
+        </motion.div>
     </div>
   )
 }

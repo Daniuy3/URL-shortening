@@ -10,7 +10,7 @@ function App() {
   
 
   return (
-    <main className='mx-auto'>
+    <main className='overflow-hidden'>
       <Nav />
       <Hero />
       <Shortener />
