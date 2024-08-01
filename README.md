@@ -18,7 +18,7 @@ I'll add some validation to the form, to know that the user will add a valid URL
     
   ## LINK
 
-  [Link to the deployed website](https://beautiful-gecko-9f01b3.netlify.app/)
+  [Link to the deployed website](https://url-shortening-jrge09mde-daniel-trinidads-projects.vercel.app/)
 
   ## PREVIEW
 
