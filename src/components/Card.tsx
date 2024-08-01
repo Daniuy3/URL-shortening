@@ -9,7 +9,7 @@ type CardProps = {
 function Card({title, content, children}: CardProps) {
 
   const targetRef = useRef(null)
-
+    console.log(targetRef)
   const {scrollYProgress} = useScroll({
     target: targetRef,
     offset: ["start end", "end start"]

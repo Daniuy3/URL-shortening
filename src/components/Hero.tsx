@@ -5,7 +5,7 @@ function Hero() {
       className="flex flex-col p-5 mt-10 md:flex-row lg:flex-row-reverse lg:items-center lg:w-10/12 mx-auto"
       
     >
-        <motion.img src="images/illustration-working.svg" alt="" className="md:w-1/2 scale-125"
+        <motion.img src="/illustration-working.svg" alt="" className="md:w-1/2 scale-125"
           initial={{ opacity: 0 , x: 300 }}
           animate={{ opacity: 1, x: 0 }}  
           transition={{ duration: 1, stiffness: 50 }}

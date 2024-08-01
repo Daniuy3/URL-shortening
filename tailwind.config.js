@@ -20,8 +20,8 @@ export default {
         "Family": ['Poppins', 'sans-serif'],
       },
       backgroundImage:{
-        "shortenerMobile": "url('images/bg-shorten-desktop.svg')",
-        "shortenerDesktop": "url('images/bg-shorten-desktop.svg')",
+        "shortenerMobile": "url('/bg-shorten-desktop.svg')",
+        "shortenerDesktop": "url('/bg-shorten-desktop.svg')",
       },
     },
   },

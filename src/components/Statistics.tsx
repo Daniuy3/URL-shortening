@@ -16,19 +16,19 @@ return (
                     <Card 
                             title="Brand Recognition"
                             content="Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content."
-                    ><img src="images/icon-brand-recognition.svg" alt="image" /></Card>
+                    ><img src="/icon-brand-recognition.svg" alt="image" /></Card>
                    <div className="lg:translate-y-10">
                    <Card title="Detailed Records"
                             content="Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions."
                     >
-                            <img src="images/icon-detailed-records.svg" alt="image" />
+                            <img src="/icon-detailed-records.svg" alt="image" />
                     </Card>
                    </div>
                     <div className="lg:translate-y-20">
                     <Card title="Fully Customizable"
                             content="Improve brand awareness and content discoverability through customizable links, supercharging audience engagement."
                     >
-                            <img src="images/icon-fully-customizable.svg" alt="image" />
+                            <img src="/icon-fully-customizable.svg" alt="image" />
                     </Card>
                     </div>
                     <div className="absolute left-1/2 top-0 h-full w-2 bg-cyan transform -translate-x-1/2 -z-10 lg:hidden"></div>

@@ -33,10 +33,10 @@ function Footer() {
                 </ul>
 
                 <nav className="flex gap-5 items-center justify-center mx-auto w-11/12 pb-10 md:w-1/5 lg:w-1/12">
-                    <img src="images/icon-facebook.svg" alt="F" className="hover:cursor-pointer" />
-                    <img src="images/icon-twitter.svg" alt="T" className="hover:cursor-pointer" />
-                    <img src="images/icon-pinterest.svg" alt="P" className="hover:cursor-pointer" />
-                    <img src="images/icon-instagram.svg" alt="I" className="hover:cursor-pointer" />
+                    <img src="/icon-facebook.svg" alt="F" className="hover:cursor-pointer" />
+                    <img src="/icon-twitter.svg" alt="T" className="hover:cursor-pointer" />
+                    <img src="/icon-pinterest.svg" alt="P" className="hover:cursor-pointer" />
+                    <img src="/icon-instagram.svg" alt="I" className="hover:cursor-pointer" />
                 </nav>
             </div>
         </footer>

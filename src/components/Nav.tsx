@@ -2,8 +2,8 @@
 function Nav() {
 return (
     <div className="flex justify-between mt-10 px-3 items-center md:justify-start md:gap-10">
-        <img src="images/logo.svg" alt="Shortly" className="hover:cursor-pointer" />
-        <img src="images/menu.svg" alt="Menu" className="w-7 h-7 md:hidden hover:cursor-pointer" />
+        <img src="/logo.svg" alt="Shortly" className="hover:cursor-pointer" />
+        <img src="/menu.svg" alt="Menu" className="w-7 h-7 md:hidden hover:cursor-pointer" />
         <div className="md:flex hidden justify-between w-full">
             
                 <ul className="flex gap-10 items-center">
